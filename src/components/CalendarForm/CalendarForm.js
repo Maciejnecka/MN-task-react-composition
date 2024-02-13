@@ -125,11 +125,7 @@ class CalendarForm extends React.Component {
       <CalendarFormRender
         form={form}
         errors={errors}
-        suggestions={{
-          firstNameSuggestions: suggestions.firstNameSuggestions,
-          lastNameSuggestions: suggestions.lastNameSuggestions,
-          emailSuggestions: suggestions.emailSuggestions,
-        }}
+        suggestions={suggestions}
         handleInputChange={this.handleInputChange}
         handleSuggestionClick={this.handleSuggestionClick}
         handleSubmit={this.handleSubmit}
